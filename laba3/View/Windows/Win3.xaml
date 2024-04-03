@@ -1,0 +1,19 @@
+﻿<Window x:Class="laba3.View.Windows.Win3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:laba3.View.Windows"
+        mc:Ignorable="d"
+        Title="Win3" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+            <Label x:Name="lb" Content="Введите цифру от 1 до 12" Height="50"/>
+            <TextBox x:Name="tb" Height="50" Width="100"/>
+            <Button x:Name="bt" Content="Узнать" Width="100" Height="75" Click="bt_Click" />
+        </StackPanel>
+        <Label Content="По введенному номеру месяца выдать на экран сообщение о времени года и
+названии введенного месяца. Например: 1 – январь, зима." Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="back" Content="Вернуться" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="back_Click" />
+    </Grid>
+</Window>

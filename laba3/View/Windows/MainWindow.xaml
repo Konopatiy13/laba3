@@ -1,0 +1,22 @@
+﻿<Window x:Class="laba3.View.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:laba3.View.Windows"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Image Source="/Assets/kizaru3.jpg" />
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Button x:Name="bt1" Grid.Column="0" Grid.Row="0" Content="zd1" Click="bt1_Click" Height="50" Width="100"/>
+            <Button x:Name="bt2" Grid.Column="0" Grid.Row="0" Content="zd2" Click="bt2_Click" Height="50" Width="100"/>
+            <Button x:Name="bt3" Grid.Column="0" Grid.Row="0" Content="zd3" Click="bt3_Click" Height="50" Width="100"/>
+            <Button x:Name="bt4" Grid.Column="0" Grid.Row="0" Content="zd4" Click="bt4_Click" Height="50" Width="100"/>
+            <Button x:Name="bt5" Grid.Column="0" Grid.Row="0" Content="zd5" Click="bt5_Click" Height="50" Width="100"/>
+            <Button x:Name="bt6" Grid.Column="0" Grid.Row="0" Content="zd6" Click="bt6_Click" Height="50" Width="100"/>
+            <Button x:Name="bt7" Grid.Column="0" Grid.Row="0" Content="zd7" Click="bt7_Click" Height="50" Width="100"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>

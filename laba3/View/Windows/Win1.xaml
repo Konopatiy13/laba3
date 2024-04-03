@@ -1,0 +1,19 @@
+﻿<Window x:Class="laba3.View.Windows.Win1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:laba3.View.Windows"
+        mc:Ignorable="d"
+        Title="Win1" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+            <Label x:Name="lb" Content="Введите год" Height="50"/>
+            <TextBox x:Name="tb" Height="50" Width="100"/>
+            <Button x:Name="bt" Content="Узнать век" Width="100" Height="75" Click="bt_Click" />
+        </StackPanel>
+        <Button x:Name="back" Content="Вернуться" Width="100" Height="75" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="back_Click" />
+        <Label Content="По номеру y (y > 0) некоторого года определить с – номер его столетия. Учесть,
+что, к примеру, началом XXI столетия был 2001, а не 2000 год." Height="100" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

@@ -1,0 +1,41 @@
+﻿<Window x:Class="laba3.View.Windows.Win2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:laba3.View.Windows"
+        mc:Ignorable="d"
+        Title="Win2" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20" Grid.Row="0">
+            <Label x:Name="lb1" Content="Сторона А" Height="50"/>
+            <TextBox x:Name="tb1" Height="50" Width="100"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20" Grid.Row="0" >
+            <Label x:Name="lb2" Content="Сторона Б" Height="50"/>
+            <TextBox x:Name="tb2" Height="50" Width="100"/>
+        </StackPanel>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20" Grid.Row="0">
+                <Label x:Name="lb3" Content="Сторона С" Height="50"/>
+                <TextBox x:Name="tb3" Height="50" Width="100"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20" Grid.Row="0">
+                <Label x:Name="lb4" Content="Ответ" Height="50"/>
+                <Label x:Name="lb5" Height="50" Width="100" />
+            </StackPanel>
+        </StackPanel>
+
+        <Label Content="Даны произвольные числа a, b, c. Если нельзя построить треугольник с такими
+длинами сторон, то выдать соответствующее сообщение." Height="100" VerticalAlignment="Top"/>
+        <Button x:Name="bt" Content="Узнать отввет" Width="100" Height="75" Click="bt_Click" VerticalAlignment="Bottom" HorizontalAlignment="Center" Grid.Row="1" />
+        <Button x:Name="back" Content="Вернуться" Width="100" Height="75" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="back_Click" Grid.Row="1" />
+    </Grid>
+</Window>
