@@ -1,0 +1,19 @@
+﻿<Window x:Class="laba3.View.Windows.Win8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:laba3.View.Windows"
+        mc:Ignorable="d"
+        Title="Win8" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <ListView x:Name="lv1" Height="100" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+            
+           
+            <Button x:Name="bt" Content="Узнать ответ" Width="100" Height="75" Click="bt_Click"  />
+        </StackPanel>
+        <Button x:Name="back" Content="Вернуться" Width="100" Height="75" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="back_Click"  />
+        <Label Content="Вывести список" Height="100" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

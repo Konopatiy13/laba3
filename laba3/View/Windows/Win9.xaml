@@ -1,0 +1,31 @@
+﻿<Window x:Class="laba3.View.Windows.Win9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:laba3.View.Windows"
+        mc:Ignorable="d"
+        Title="Win9" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Grid>
+
+        <DataGrid x:Name="DGR" HorizontalAlignment="Left"
+             AutoGenerateColumns="False" Margin="10,10,0,0" VerticalAlignment="Top" Height="170" Width="300">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Бренд" Binding="{Binding Brend}"/>
+                <DataGridTextColumn Header="Модель" Binding="{Binding Model}"/>
+                <DataGridTextColumn Header="Цена" Binding="{Binding Price}"/>
+                <DataGridTextColumn Header="Камера MP" Binding="{Binding Camera}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+
+        <!--<StackPanel Width="100" VerticalAlignment="Top" HorizontalAlignment="Left"  >
+            <ComboBox x:Name="ComboBox1" />
+        </StackPanel>-->
+        
+        <Button x:Name="bt1" Content="Вывести список" Height="75" Width="100" Click="bt1_Click" VerticalAlignment="Bottom" HorizontalAlignment="Center" />
+        <Button x:Name="bt2" Content="back" Height="75" Width="100" Click="bt2_Click" VerticalAlignment="Bottom" HorizontalAlignment="Left" />
+    </Grid>
+</Window>

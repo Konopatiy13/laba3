@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\KONOPATIY\\Praktika\\laba3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95B7DAAA-6E06-45C3-BF98-7F776A35662E}|laba3\\laba3.csproj|c:\\users\\konopatiy\\praktika\\laba3\\laba3\\view\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{95B7DAAA-6E06-45C3-BF98-7F776A35662E}|laba3\\laba3.csproj|c:\\users\\konopatiy\\praktika\\laba3\\laba3\\view\\windows\\win9.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{95B7DAAA-6E06-45C3-BF98-7F776A35662E}|laba3\\laba3.csproj|solutionrelative:laba3\\view\\windows\\win9.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B7DAAA-6E06-45C3-BF98-7F776A35662E}|laba3\\laba3.csproj|c:\\users\\konopatiy\\praktika\\laba3\\laba3\\view\\windows\\win8.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{95B7DAAA-6E06-45C3-BF98-7F776A35662E}|laba3\\laba3.csproj|solutionrelative:laba3\\view\\windows\\win8.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B7DAAA-6E06-45C3-BF98-7F776A35662E}|laba3\\laba3.csproj|C:\\Users\\KONOPATIY\\Praktika\\laba3\\laba3\\view\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{95B7DAAA-6E06-45C3-BF98-7F776A35662E}|laba3\\laba3.csproj|solutionrelative:laba3\\view\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B7DAAA-6E06-45C3-BF98-7F776A35662E}|laba3\\laba3.csproj|C:\\Users\\KONOPATIY\\Praktika\\laba3\\laba3\\view\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B7DAAA-6E06-45C3-BF98-7F776A35662E}|laba3\\laba3.csproj|solutionrelative:laba3\\view\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,7 +25,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 220,
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -31,13 +43,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Win9.xaml",
+              "DocumentMoniker": "C:\\Users\\KONOPATIY\\Praktika\\laba3\\laba3\\View\\Windows\\Win9.xaml",
+              "RelativeDocumentMoniker": "laba3\\View\\Windows\\Win9.xaml",
+              "ToolTip": "C:\\Users\\KONOPATIY\\Praktika\\laba3\\laba3\\View\\Windows\\Win9.xaml",
+              "RelativeToolTip": "laba3\\View\\Windows\\Win9.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-04T18:38:50.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Win8.xaml",
+              "DocumentMoniker": "C:\\Users\\KONOPATIY\\Praktika\\laba3\\laba3\\View\\Windows\\Win8.xaml",
+              "RelativeDocumentMoniker": "laba3\\View\\Windows\\Win8.xaml",
+              "ToolTip": "C:\\Users\\KONOPATIY\\Praktika\\laba3\\laba3\\View\\Windows\\Win8.xaml",
+              "RelativeToolTip": "laba3\\View\\Windows\\Win8.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-04T18:38:12.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\KONOPATIY\\Praktika\\laba3\\laba3\\View\\Windows\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "laba3\\View\\Windows\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\KONOPATIY\\Praktika\\laba3\\laba3\\View\\Windows\\MainWindow.xaml.cs",
+              "RelativeToolTip": "laba3\\View\\Windows\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAADwv2gAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:27:18.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\KONOPATIY\\Praktika\\laba3\\laba3\\View\\Windows\\MainWindow.xaml",
               "RelativeDocumentMoniker": "laba3\\View\\Windows\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\KONOPATIY\\Praktika\\laba3\\laba3\\View\\Windows\\MainWindow.xaml",
               "RelativeToolTip": "laba3\\View\\Windows\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-02T23:28:59.102Z",
+              "WhenOpened": "2024-04-04T12:14:38.954Z",
               "EditorCaption": ""
             }
           ]

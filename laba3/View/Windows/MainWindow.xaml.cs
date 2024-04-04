@@ -23,6 +23,7 @@ namespace laba3.View.Windows
         public MainWindow()
         {
             InitializeComponent();
+
             //DataContext = new zd1();
         }
 
@@ -74,5 +75,33 @@ namespace laba3.View.Windows
             win7.Show();
             Close();
         }
+
+        private void bt8_Click(object sender, RoutedEventArgs e)
+        {
+            Win8 win8 = new Win8();
+            win8.Show();
+            Close();
+        }
+
+
+        private void bt9_Click(object sender, RoutedEventArgs e)
+        {
+            Win9 win9 = new Win9();
+            win9.Show();
+            Close();
+        }
+
+        //private void cb1_Loaded(object sender, RoutedEventArgs e)
+        //{
+        //    bt1_Click(sender, e);
+        //    bt2_Click(sender, e);
+        //    bt3_Click(sender, e);
+        //    bt4_Click(sender, e);
+        //    bt5_Click(sender, e);
+        //    bt6_Click(sender, e);
+        //    bt7_Click(sender, e);
+        //    bt8_Click(sender, e);
+        //    bt9_Click(sender, e);
+        //}
     }
 }

@@ -66,6 +66,8 @@
     <Compile Include="ViewModel\zd5.cs" />
     <Compile Include="ViewModel\zd6.cs" />
     <Compile Include="ViewModel\zd7.cs" />
+    <Compile Include="ViewModel\zd8.cs" />
+    <Compile Include="ViewModel\zd9.cs" />
     <Compile Include="View\Windows\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -89,6 +91,12 @@
     </Compile>
     <Compile Include="View\Windows\Win7.xaml.cs">
       <DependentUpon>Win7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Windows\Win8.xaml.cs">
+      <DependentUpon>Win8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Windows\Win9.xaml.cs">
+      <DependentUpon>Win9.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -150,10 +158,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Windows\Win8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Windows\Win9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Resource Include="Assets\kizaru3.jpg" />
+    <Resource Include="Assets\Image\kizaru3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
